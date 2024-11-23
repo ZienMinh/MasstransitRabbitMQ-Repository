@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{58C9B36F-4A0B-43A5-9CB0-FEA01308BD85}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.Dev.Infrastructure.yaml = docker-compose.Dev.Infrastructure.yaml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3E5C05C4-DE4F-4E18-8442-30A22FB308E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasstransitRabbitMQ.Producer.API", "MasstransitRabbitMQ.Producer.API\MasstransitRabbitMQ.Producer.API.csproj", "{1F4CB9EA-952D-4E54-A6AC-24494B856996}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasstransitRabbitMQ.Contract", "MasstransitRabbitMQ.Contract\MasstransitRabbitMQ.Contract.csproj", "{A45732AB-13BF-43D1-85D1-1219418091DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasstransitRabbitMQ.Consumer.API", "MasstransitRabbitMQ.Consumer.API\MasstransitRabbitMQ.Consumer.API.csproj", "{4A3C309C-E9E0-458B-938E-E1F857FD3D48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F4CB9EA-952D-4E54-A6AC-24494B856996}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F4CB9EA-952D-4E54-A6AC-24494B856996}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F4CB9EA-952D-4E54-A6AC-24494B856996}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F4CB9EA-952D-4E54-A6AC-24494B856996}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A45732AB-13BF-43D1-85D1-1219418091DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A45732AB-13BF-43D1-85D1-1219418091DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A45732AB-13BF-43D1-85D1-1219418091DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A45732AB-13BF-43D1-85D1-1219418091DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A3C309C-E9E0-458B-938E-E1F857FD3D48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A3C309C-E9E0-458B-938E-E1F857FD3D48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A3C309C-E9E0-458B-938E-E1F857FD3D48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A3C309C-E9E0-458B-938E-E1F857FD3D48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1F4CB9EA-952D-4E54-A6AC-24494B856996} = {3E5C05C4-DE4F-4E18-8442-30A22FB308E1}
+		{A45732AB-13BF-43D1-85D1-1219418091DC} = {3E5C05C4-DE4F-4E18-8442-30A22FB308E1}
+		{4A3C309C-E9E0-458B-938E-E1F857FD3D48} = {3E5C05C4-DE4F-4E18-8442-30A22FB308E1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {764768DE-6203-4ECF-80CC-B00A2AA2212C}
+	EndGlobalSection
+EndGlobal
